@@ -39,27 +39,6 @@ RFM69, LoRa, etc.
 Copy the library folder ArduCamRP2040/ into:
 Documents/Arduino/libraries/
 
-
-🛠 Wiring Overview:
-
-Camera (OV2640)
-Camera Pin	RP2040 Pin
-CS	D10
-SCK	SCK (shared SPI)
-MOSI	MOSI
-MISO	MISO
-SDA	SDA
-SCL	SCL
-VCC	3.3V
-GND	GND
-SD Card (optional)
-SD Pin	RP2040 Pin
-CS	D5
-SCK	shared with camera
-MOSI	shared
-MISO	shared
-
-
 ✨ Key Features
 
 ✔ Image Controls
